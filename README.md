@@ -64,7 +64,7 @@ existe e é diretório e, em sendo verdadeiro, verificar se o arquivo existe (Pa
 se o tipo da operação será w (write) ou a (append)) e gravar no arquivo o conteúdo
 da variável linha_cad.
 
-
+38,36
 
 
 
@@ -77,3 +77,19 @@ para inteiro, verificar se o número é múltiplo de 5 e, se for, gravar em outr
 3. Resolver o exercício 36, modularizando a operações. Deve- se ter uma função que calcule e
 retorne o fatorial de um número, pra função que calcule e retorne a divisão. Deve-se fazer um
 procedimento que grave cada termo do somatório num arquivo e, por fim, o resultado final.
+
+31 E 37
+
+Exercícios (Adaptados da lista cedida pelo Prof. Ricardo Satoshi) – Fazer em Python
+1. Resolver o exercício 31, gravando todos os valores num arquivo. Deve-se fazer um procedimento
+para gravação e caso o arquivo já exista, ele deve ser descartado e gravado do início novamente.
+
+2. Resolver o exercício 37, gravando todos os valores num arquivo. Deve-se fazer um procedimento
+para gravação, sendo que, o arquivo deve ser atualizado a cada termo gerado. Na gravação do
+primeiro termo, deve-se fazer uma verificação, caso o arquivo já exista, ele deve ser descartado e
+gravado do início novamente.
+
+3. Em complemento ao enunciado anterior, fazer uma aplicação Python, que leia o arquivo com os
+termos da série de Fibonacci e imprima na tela só os números ímpares. A aplicação deve ter um
+procedimento de leitura, uma função que valide se o número é ímpar e retorne o número para ser
+impresso. Caso não seja ímpar, a função deve retornar -1, que não deve ser impresso em console.
